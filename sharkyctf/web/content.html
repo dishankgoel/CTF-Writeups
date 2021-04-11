@@ -1,0 +1,1 @@
+<div> <table border="1"> <tr> <th>Name</th> <th>Discovery year</th> <th>Discoverer name</th> </tr> <tr th:each ="fish : ${fishes}"> <td th:utext="${fish.name}">...</td> <td th:utext="${#ctx.locale}">...</td> <td th:utext="${fish.discovererName}">...</td> </tr> </table> </div>      

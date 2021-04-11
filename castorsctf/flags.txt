@@ -1,0 +1,2 @@
+Misc -> Crack pass1: castorsCTF{irocktoo}
+pwn -> babybof:  castorsCTF{th4t's_c00l_but_c4n_y0u_g3t_4_sh3ll_n0w?}

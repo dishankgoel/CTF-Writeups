@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dfxml xmloutputversion='1.0'>
+  <metadata 
+  xmlns='http://afflib.org/tcpflow/' 
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' 
+  xmlns:dc='http://purl.org/dc/elements/1.1/'>
+    <dc:type>Feature Extraction</dc:type>
+  </metadata>
+  <creator version='1.0'>
+    <program>TCPFLOW</program>
+    <version>1.4.5</version>
+    <build_environment>
+      <compiler>7.3.0 (7.3.0)</compiler>
+      <CPPFLAGS>-pthread -I/usr/local/include -I/usr/local/include -Wdate-time -D_FORTIFY_SOURCE=2 -DUTC_OFFSET=+0000 </CPPFLAGS>
+      <CFLAGS>-g   -pthread -g -O3 -fdebug-prefix-map=/build/tcpflow-VEUeIu/tcpflow-1.4.5+repack1=. -fstack-protector-strong -Wformat -Werror=format-security -MD -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wmissing-declarations -Wmissing-prototypes -Wshadow -Wwrite-strings -Wcast-align -Waggregate-return -Wbad-function-cast -Wcast-qual -Wundef -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wc++-compat -Wmissing-noreturn -Wall -Wstrict-prototypes</CFLAGS>
+      <CXXFLAGS>-g -pthread -g -O3 -fdebug-prefix-map=/build/tcpflow-VEUeIu/tcpflow-1.4.5+repack1=. -fstack-protector-strong -Wformat -Werror=format-security -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Weffc++ -Wall -MD -D_FORTIFY_SOURCE=2 -Wpointer-arith -Wshadow -Wwrite-strings -Wcast-align -Wredundant-decls -Wdisabled-optimization -Wfloat-equal -Wmultichar -Wmissing-noreturn -Woverloaded-virtual -Wsign-promo -funit-at-a-time -Wstrict-null-sentinel -Weffc++ </CXXFLAGS>
+      <LDFLAGS>-L/usr/local/lib -L/usr/local/lib -Wl,-Bsymbolic-functions -Wl,-z,relro</LDFLAGS>
+      <LIBS>-lpcap -lcairo -lfontconfig -lfreetype -lpixman-1 -lexpat  -lcrypto -lssl -lcrypto -ldl -lz </LIBS>
+      <compilation_date>2019-04-24T13:07:55</compilation_date>
+      <library name="boost" version="106501"/>
+    </build_environment>
+    <execution_environment>
+      <os_sysname>Linux</os_sysname>
+      <os_release>5.3.0-42-generic</os_release>
+      <os_version>#34~18.04.1-Ubuntu SMP Fri Feb 28 13:42:26 UTC 2020</os_version>
+      <host>dishank-Lenovo-ideapad-320-15IKB</host>
+      <arch>x86_64</arch>
+      <command_line>tcpflow -r easy.pcap</command_line>
+      <uid>1000</uid>
+      <start_time>2020-04-11T09:02:11Z</start_time>
+    </execution_environment>
+  </creator>
+  <configuration>
+  </configuration>
+  <tdelta>0</tdelta>
+  <configuration>
+    <fileobject>
+      <filename>192.168.001.011.59356-034.068.181.009.00080</filename>
+      <filesize>83</filesize>
+      <tcpflow startime='2020-03-28T21:52:39.401743Z' endtime='2020-03-28T21:52:39.478662Z' src_ipn='192.168.1.11' dst_ipn='34.68.181.9' mac_daddr='00:1f:90:74:36:20' mac_saddr='e8:d0:fc:a7:66:a3' packets='5' srcport='59356' dstport='80' family='2' />
+    </fileobject>
+    <fileobject>
+      <filename>034.068.181.009.00080-192.168.001.011.59356</filename>
+      <filesize>265</filesize>
+      <tcpflow startime='2020-03-28T21:52:39.438561Z' endtime='2020-03-28T21:52:39.517003Z' src_ipn='34.68.181.9' dst_ipn='192.168.1.11' mac_daddr='e8:d0:fc:a7:66:a3' mac_saddr='00:1f:90:74:36:20' packets='4' srcport='80' dstport='59356' family='2' />
+    </fileobject>
+  </configuration>
+  <summary />
+  <open_fds_at_end>0</open_fds_at_end>
+  <max_open_flows>2</max_open_flows>
+  <total_flows>2</total_flows>
+  <flow_map_size>0</flow_map_size>
+  <total_packets>9</total_packets>
+  <rusage>
+    <utime>0.038701</utime>
+    <stime>0.019350</stime>
+    <maxrss>10132</maxrss>
+    <minflt>1153</minflt>
+    <majflt>0</majflt>
+    <nswap>0</nswap>
+    <inblock>0</inblock>
+    <oublock>24</oublock>
+    <clocktime>0.000850</clocktime>
+  </rusage>
+</dfxml>

@@ -1,0 +1,63 @@
+The TTDecomp utility will decompress files that are identified by the Unix file
+command as "TTComp archive data".
+
+Usage: ttdecomp infile outfile
+
+Note that the TTComp archive data format is used by some libraries/utilities
+as a wrapper for multiple files. The TTDecomp utility does not parse the
+internal content of the input file; it simply decompresses it into the
+output file.
+
+Some other utilities that handle such archives include:
+  - i3comp (InstallShield 3.x Compression and Maintenance utility)
+  - lawine (Starcraft/Brood War Library)
+  - PKZIP (for its own "inflate" method)
+  - STIX (for InstallShield 3 - Archives and self-extracting executables)
+
+If the output of TTDecomp is not directly usable then you should check
+if one of these other utilities can make sense of the archive.
+
+------------------------------------------------------------------------------
+To build ttdecomp on a Posix-compliant machine, simply run make to produce
+the ttdecomp executable.
+
+To build ttdecomp on a Windows machine in Visual Studio, create a console
+application and add all the .c and .h files. You will have to insert the
+following line after the copyright commentary at the beginning of ttdecomp.c:
+  #include "stdafx.h"
+
+I have successfully built ttdecomp on the following machines:
+  - Mac OS X 10.7 using XCode command line utilities
+  - Redhat Linux using GNU utilities
+  - Windows 7 using Visual Studio 2010
+
+Report bugs to Tony Lewis <tlewis@exelana.com>
+
+------------------------------------------------------------------------------
+The actual decompression is performed in implode.c, which is found in the
+the Starcraft/Brood War Library. The following files are from that library:
+   - implode.c
+   - common.c
+   - common.h
+
+The library is found online at http://code.google.com/p/lawine/ and is
+licensed under the GNU Lesser GPL.
+
+For all of these files I had to remove Unicode characters in order for them
+to compile using older versions of gcc.
+
+I also changed some system include file references to local references. For
+example, from:
+  #include <common.h>
+to:
+  #include "common.h" /* changed from <common.h> by Tony Lewis */
+
+All such changes are indicated with a comment including my name.
+
+Note that gcc version 3.2.2 emits a warning for implode.c:
+  implode.c: In function `implode':
+  implode.c:124: warning: `copy_off' might be used uninitialized in this function
+
+------------------------------------------------------------------------------
+The compression algorithm is an example of Shannon-Fano coding described here:
+  http://en.wikipedia.org/wiki/Shannon%E2%80%93Fano_coding

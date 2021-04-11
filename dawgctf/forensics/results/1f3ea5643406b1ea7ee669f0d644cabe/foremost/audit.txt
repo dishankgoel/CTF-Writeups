@@ -1,0 +1,23 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Apr 11 14:35:30 2020
+Invocation: foremost /home/dishank/ctfs/dawgctf/forensics/alittleharder.pcap -o ./results/1f3ea5643406b1ea7ee669f0d644cabe/foremost 
+Output directory: /home/dishank/ctfs/dawgctf/forensics/results/1f3ea5643406b1ea7ee669f0d644cabe/foremost
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: /home/dishank/ctfs/dawgctf/forensics/alittleharder.pcap
+Start: Sat Apr 11 14:35:30 2020
+Length: 141 KB (144815 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+0:	00000099.htm 	      221 B 	      51110 	 
+Finish: Sat Apr 11 14:35:30 2020
+
+1 FILES EXTRACTED
+	
+htm:= 1
+------------------------------------------------------------------
+
+Foremost finished at Sat Apr 11 14:35:30 2020

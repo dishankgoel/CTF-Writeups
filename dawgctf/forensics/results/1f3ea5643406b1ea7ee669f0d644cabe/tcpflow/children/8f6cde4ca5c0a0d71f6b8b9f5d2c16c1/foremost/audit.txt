@@ -1,0 +1,21 @@
+Foremost version 1.5.7 by Jesse Kornblum, Kris Kendall, and Nick Mikus
+Audit File
+
+Foremost started at Sat Apr 11 14:35:31 2020
+Invocation: foremost /home/dishank/ctfs/dawgctf/forensics/results/1f3ea5643406b1ea7ee669f0d644cabe/tcpflow/192.168.001.011.59050-034.068.181.009.00080 -o ./results/1f3ea5643406b1ea7ee669f0d644cabe/tcpflow/children/8f6cde4ca5c0a0d71f6b8b9f5d2c16c1/foremost 
+Output directory: /home/dishank/ctfs/dawgctf/forensics/results/1f3ea5643406b1ea7ee669f0d644cabe/tcpflow/children/8f6cde4ca5c0a0d71f6b8b9f5d2c16c1/foremost
+Configuration file: /etc/foremost.conf
+------------------------------------------------------------------
+File: /home/dishank/ctfs/dawgctf/forensics/results/1f3ea5643406b1ea7ee669f0d644cabe/tcpflow/192.168.001.011.59050-034.068.181.009.00080
+Start: Sat Apr 11 14:35:31 2020
+Length: 94 B (94 bytes)
+ 
+Num	 Name (bs=512)	       Size	 File Offset	 Comment 
+
+Finish: Sat Apr 11 14:35:31 2020
+
+0 FILES EXTRACTED
+	
+------------------------------------------------------------------
+
+Foremost finished at Sat Apr 11 14:35:31 2020
