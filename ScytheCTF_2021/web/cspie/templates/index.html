@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block content %}
+<header class="container">
+    <h1>b4s3d 0n 7ru3 3v3n75</h1>
+    <hr/>
+</header>
+
+<div class="container">
+    <article>
+        <h2>First Post</h2>
+        <p></p>
+
+        <p>Can you pwn the admin again?</p>
+        <img src="/static/images/r2.jpg" />
+    </article>
+    <form id="new-comment" action="{{ url_for('comment') }}" method="post">
+        <fieldset>
+            <legend>Post a comment</legend>
+            <div class="row">
+                <div class="six columns">
+                    <label for="name">Name</label>
+                    <input class="u-full-width" id="name" name="name" type="text" placeholder="gimme somethin"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <label for="comment-text">Comment</label>
+                    <textarea name="comment" id="comment-text" class="u-full-width" cols="30" rows="20" placeholder="not again argghh"></textarea>
+                </div>
+            </div>
+            <input class="button-primary" type="submit" value="Submit"/>
+        </fieldset>
+    </form>
+</div>
+{% endblock %}

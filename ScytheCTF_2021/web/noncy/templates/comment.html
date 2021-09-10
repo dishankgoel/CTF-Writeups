@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="comments">
+    <h4>Comment</h4>
+    {% for comment in comments %}
+        <article class="comment">
+            <span class="name">{{ comment.name }} says:</span>
+            <p class="text">{{ comment.comment|safe }}</p>
+        </article>
+        <form id="report-comment" action="{{ url_for('report_comment') }}" method="POST">
+            <input type="text" value="{{ id }}" hidden/>
+            <input class="clear button-primary" value="Report this comment" type="submit"/>
+        </form>
+        <div id="admin-text"></div>
+    {% endfor %}
+
+    <script>
+        var form = document.querySelector('#report-comment');
+        form.addEventListener('submit', function(e) {
+            e.preventDefault();
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function() {
+                if (this.readyState == 4 && this.status == 200) {
+                    document.querySelector('#admin-text').innerHTML = "This comment has been reported. The admin will see it shortly";
+                }
+            };
+            xhttp.open("POST", "/report", true);
+            xhttp.send("id={{id}}");
+        });
+    </script>
+</section>
+{% endblock %}

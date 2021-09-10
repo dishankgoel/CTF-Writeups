@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+<section class="comments">
+    <h4>Comment</h4>
+    {% for comment in comments %}
+        <article class="comment">
+            <span class="name">{{ comment.name }} says:</span>
+            <p class="text">{{ comment.comment|safe }}</p>
+        </article>
+    {% endfor %}
+</section>
+{% endblock %}

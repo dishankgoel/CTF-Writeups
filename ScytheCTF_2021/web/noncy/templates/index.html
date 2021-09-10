@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% block content %}
+<header class="container">
+    <h1>Waah modiji Waah</h1>
+    <hr/>
+</header>
+
+<div class="container">
+    <article>
+        <h2>First Post</h2>
+        <p></p>
+
+        <p>Let the admin know how Modiji contributed to your success</p>
+        <img src="/static/images/modi.jpg" />
+    </article>
+    <form id="new-comment" action="{{ url_for('comment') }}" method="post">
+        <fieldset>
+            <legend>Post a comment</legend>
+            <div class="row">
+                <div class="six columns">
+                    <label for="name">Name</label>
+                    <input class="u-full-width" id="name" name="name" type="text" placeholder="Horrible hacker type of guy"/>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <label for="comment-text">Comment</label>
+                    <textarea name="comment" id="comment-text" class="u-full-width" cols="30" rows="20" placeholder="This blog sux"></textarea>
+                </div>
+            </div>
+            <input class="button-primary" type="submit" value="Submit"/>
+        </fieldset>
+    </form>
+</div>
+{% endblock %}

