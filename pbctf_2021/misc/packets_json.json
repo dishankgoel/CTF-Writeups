@@ -1,0 +1,4050 @@
+[
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:05.483887000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157845.483887000",
+          "frame.time_delta": "0.000245000",
+          "frame.time_delta_displayed": "0.000000000",
+          "frame.time_relative": "0.458722000",
+          "frame.number": "27",
+          "frame.len": "85",
+          "frame.cap_len": "85",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "5",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x0000420a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "66"
+          },
+          "btle.length": "66",
+          "btle.l2cap_index": "7",
+          "btle.crc": "0x0040157d",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "62",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "1",
+          "btatt.value": "31:6b:6f:5a:50:70:39:72:65:5f:56:4a:7a:45:55:5f:44:4e:6e:73:53:76:35:78:6a:38:51:55:4f:57:74:64:4c:33:66:6a:64:5f:6c:4c:4a:43:4c:55:62:63:4d:63:34:43:51:48:79:41:6c:46:48",
+          "btatt.request_in_frame": "24"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:06.483850000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157846.483850000",
+          "frame.time_delta": "0.000248000",
+          "frame.time_delta_displayed": "0.999963000",
+          "frame.time_relative": "1.458685000",
+          "frame.number": "67",
+          "frame.len": "74",
+          "frame.cap_len": "74",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "35",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x0000370a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "55"
+          },
+          "btle.length": "55",
+          "btle.l2cap_index": "11",
+          "btle.crc": "0x00f5e876",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "51",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "11",
+          "btatt.value": "53:73:74:47:32:54:33:56:4f:65:42:7a:58:75:66:37:76:62:65:35:5a:59:48:66:6d:67:5a:5f:45:56:76:69:52:48:36:4c:62:6b:67:56:66:43:55:4b:6e:44",
+          "btatt.request_in_frame": "64"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:07.483850000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157847.483850000",
+          "frame.time_delta": "0.000258000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "2.458685000",
+          "frame.number": "107",
+          "frame.len": "63",
+          "frame.cap_len": "63",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "25",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00002c0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "44"
+          },
+          "btle.length": "44",
+          "btle.l2cap_index": "15",
+          "btle.crc": "0x00e1dad2",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "40",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "11",
+          "btatt.value": "4c:6a:55:4c:68:4c:6b:68:50:49:4c:46:58:42:52:33:46:74:63:73:4f:57:78:76:4b:6e:31:70:72:74:5a:66:64:30:67",
+          "btatt.request_in_frame": "104"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:08.483850000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157848.483850000",
+          "frame.time_delta": "0.000237000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "3.458685000",
+          "frame.number": "147",
+          "frame.len": "38",
+          "frame.cap_len": "38",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "19",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x0000130a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "19"
+          },
+          "btle.length": "19",
+          "btle.l2cap_index": "19",
+          "btle.crc": "0x00b148e5",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "15",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "48",
+          "btatt.value": "31:55:39:30:7a:44:54:30:6d:5a",
+          "btatt.request_in_frame": "144"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:09.483850000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157849.483850000",
+          "frame.time_delta": "0.000246000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "4.458685000",
+          "frame.number": "187",
+          "frame.len": "59",
+          "frame.cap_len": "59",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "29",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x0000280a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "40"
+          },
+          "btle.length": "40",
+          "btle.l2cap_index": "23",
+          "btle.crc": "0x00c7289e",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "36",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "16",
+          "btatt.value": "57:31:47:6d:30:41:4e:61:59:51:54:6c:30:75:39:54:56:6c:72:4e:78:74:74:77:65:56:51:38:42:36:76",
+          "btatt.request_in_frame": "184"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:10.533850000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157850.533850000",
+          "frame.time_delta": "0.000258000",
+          "frame.time_delta_displayed": "1.050000000",
+          "frame.time_relative": "5.508685000",
+          "frame.number": "229",
+          "frame.len": "44",
+          "frame.cap_len": "44",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "35",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00001906",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "25"
+          },
+          "btle.length": "25",
+          "btle.l2cap_index": "27",
+          "btle.crc": "0x00786fa8",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "21",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "30",
+          "btatt.value": "48:6f:55:42:52:61:67:79:4d:79:36:42:59:37:38:78",
+          "btatt.request_in_frame": "226"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:11.533893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157851.533893000",
+          "frame.time_delta": "0.000233000",
+          "frame.time_delta_displayed": "1.000043000",
+          "frame.time_relative": "6.508728000",
+          "frame.number": "269",
+          "frame.len": "39",
+          "frame.cap_len": "39",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "17",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00001406",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "20"
+          },
+          "btle.length": "20",
+          "btle.l2cap_index": "31",
+          "btle.crc": "0x001d9815",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "16",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "16",
+          "btatt.value": "36:43:30:44:49:62:49:64:50:6d:5f",
+          "btatt.request_in_frame": "266"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:12.533893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157852.533893000",
+          "frame.time_delta": "0.000242000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "7.508728000",
+          "frame.number": "309",
+          "frame.len": "42",
+          "frame.cap_len": "42",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "16",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00001706",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "23"
+          },
+          "btle.length": "23",
+          "btle.l2cap_index": "35",
+          "btle.crc": "0x001cc69c",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "19",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "33",
+          "btatt.value": "48:71:72:67:49:74:4d:6b:51:64:64:6c:44:5f",
+          "btatt.request_in_frame": "306"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:13.533893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157853.533893000",
+          "frame.time_delta": "0.000252000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "8.508728000",
+          "frame.number": "349",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "1",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "39",
+          "btle.crc": "0x007a65b0",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "30",
+          "btatt.value": "5f",
+          "btatt.request_in_frame": "346"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:14.533893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157854.533893000",
+          "frame.time_delta": "0.000231000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "9.508728000",
+          "frame.number": "389",
+          "frame.len": "35",
+          "frame.cap_len": "35",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "16",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00001006",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "16"
+          },
+          "btle.length": "16",
+          "btle.l2cap_index": "43",
+          "btle.crc": "0x00953448",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "12",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "1",
+          "btatt.value": "70:63:54:4e:72:57:6f",
+          "btatt.request_in_frame": "386"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:15.533893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157855.533893000",
+          "frame.time_delta": "0.000240000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "10.508728000",
+          "frame.number": "429",
+          "frame.len": "32",
+          "frame.cap_len": "32",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "23",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000d06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "13"
+          },
+          "btle.length": "13",
+          "btle.l2cap_index": "47",
+          "btle.crc": "0x0082428c",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "9",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "11",
+          "btatt.value": "78:46:70:54",
+          "btatt.request_in_frame": "426"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:16.583893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157856.583893000",
+          "frame.time_delta": "0.000251000",
+          "frame.time_delta_displayed": "1.050000000",
+          "frame.time_relative": "11.558728000",
+          "frame.number": "471",
+          "frame.len": "39",
+          "frame.cap_len": "39",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "23",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x0000140a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "20"
+          },
+          "btle.length": "20",
+          "btle.l2cap_index": "51",
+          "btle.crc": "0x003c2a69",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "16",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "33",
+          "btatt.value": "68:37:78:30:34:66:4f:34:43:72:74",
+          "btatt.request_in_frame": "468"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:17.583893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157857.583893000",
+          "frame.time_delta": "0.000230000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "12.558728000",
+          "frame.number": "511",
+          "frame.len": "36",
+          "frame.cap_len": "36",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "20",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x0000110a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "17"
+          },
+          "btle.length": "17",
+          "btle.l2cap_index": "55",
+          "btle.crc": "0x00720222",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "13",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "50",
+          "btatt.value": "30:53:70:30:37:74:30:70",
+          "btatt.request_in_frame": "508"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:18.583893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157858.583893000",
+          "frame.time_delta": "0.000240000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "13.558728000",
+          "frame.number": "551",
+          "frame.len": "31",
+          "frame.cap_len": "31",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "15",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000c0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "12"
+          },
+          "btle.length": "12",
+          "btle.l2cap_index": "59",
+          "btle.crc": "0x0055e77d",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "8",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "11",
+          "btatt.value": "69:65:33",
+          "btatt.request_in_frame": "548"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:19.583893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157859.583893000",
+          "frame.time_delta": "0.000249000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "14.558728000",
+          "frame.number": "591",
+          "frame.len": "37",
+          "frame.cap_len": "37",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "30",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x0000120a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "18"
+          },
+          "btle.length": "18",
+          "btle.l2cap_index": "63",
+          "btle.crc": "0x000c3d06",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "14",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "16",
+          "btatt.value": "75:51:59:5f:49:37:67:78:35",
+          "btatt.request_in_frame": "588"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:20.583893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157860.583893000",
+          "frame.time_delta": "0.000228000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "15.558728000",
+          "frame.number": "631",
+          "frame.len": "30",
+          "frame.cap_len": "30",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "16",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000b0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "11"
+          },
+          "btle.length": "11",
+          "btle.l2cap_index": "67",
+          "btle.crc": "0x003d1be3",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "7",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "16",
+          "btatt.value": "5f:4a",
+          "btatt.request_in_frame": "628"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:21.583893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157861.583893000",
+          "frame.time_delta": "0.000238000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "16.558728000",
+          "frame.number": "671",
+          "frame.len": "30",
+          "frame.cap_len": "30",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "21",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000b0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "11"
+          },
+          "btle.length": "11",
+          "btle.l2cap_index": "71",
+          "btle.crc": "0x0040f6d2",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "7",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "17",
+          "btatt.value": "69:73",
+          "btatt.request_in_frame": "668"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:22.633893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157862.633893000",
+          "frame.time_delta": "0.000249000",
+          "frame.time_delta_displayed": "1.050000000",
+          "frame.time_relative": "17.608728000",
+          "frame.number": "713",
+          "frame.len": "34",
+          "frame.cap_len": "34",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "15",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000f06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "15"
+          },
+          "btle.length": "15",
+          "btle.l2cap_index": "75",
+          "btle.crc": "0x0039742b",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "11",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "20",
+          "btatt.value": "62:61:75:52:57:36",
+          "btatt.request_in_frame": "710"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:23.633893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157863.633893000",
+          "frame.time_delta": "0.000228000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "18.608728000",
+          "frame.number": "753",
+          "frame.len": "31",
+          "frame.cap_len": "31",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "4",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000c06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "12"
+          },
+          "btle.length": "12",
+          "btle.l2cap_index": "79",
+          "btle.crc": "0x00aceeba",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "8",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "22",
+          "btatt.value": "44:38:5f",
+          "btatt.request_in_frame": "750"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:24.633893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157864.633893000",
+          "frame.time_delta": "0.000237000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "19.608728000",
+          "frame.number": "793",
+          "frame.len": "38",
+          "frame.cap_len": "38",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "7",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00001306",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "19"
+          },
+          "btle.length": "19",
+          "btle.l2cap_index": "83",
+          "btle.crc": "0x00381d5c",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "15",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "35",
+          "btatt.value": "62:51:43:32:72:32:7a:68:30:6c",
+          "btatt.request_in_frame": "790"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:25.633893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157865.633893000",
+          "frame.time_delta": "0.000247000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "20.608728000",
+          "frame.number": "833",
+          "frame.len": "31",
+          "frame.cap_len": "31",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "13",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000c06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "12"
+          },
+          "btle.length": "12",
+          "btle.l2cap_index": "87",
+          "btle.crc": "0x0082a57d",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "8",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "50",
+          "btatt.value": "6b:65:4f",
+          "btatt.request_in_frame": "830"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:26.633893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157866.633893000",
+          "frame.time_delta": "0.000256000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "21.608728000",
+          "frame.number": "873",
+          "frame.len": "33",
+          "frame.cap_len": "33",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "37",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000e06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "14"
+          },
+          "btle.length": "14",
+          "btle.l2cap_index": "91",
+          "btle.crc": "0x0045784c",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "10",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "3",
+          "btatt.value": "74:31:7a:55:67",
+          "btatt.request_in_frame": "870"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:27.633893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157867.633893000",
+          "frame.time_delta": "0.000236000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "22.608728000",
+          "frame.number": "913",
+          "frame.len": "31",
+          "frame.cap_len": "31",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "21",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000c06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "12"
+          },
+          "btle.length": "12",
+          "btle.l2cap_index": "95",
+          "btle.crc": "0x00203852",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "8",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "55",
+          "btatt.value": "68:7d:71",
+          "btatt.request_in_frame": "910"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:28.633893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157868.633893000",
+          "frame.time_delta": "0.000245000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "23.608728000",
+          "frame.number": "953",
+          "frame.len": "35",
+          "frame.cap_len": "35",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "29",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00001006",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "16"
+          },
+          "btle.length": "16",
+          "btle.l2cap_index": "99",
+          "btle.crc": "0x00b2f291",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "12",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "35",
+          "btatt.value": "67:75:77:34:51:48:74",
+          "btatt.request_in_frame": "950"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:29.683893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157869.683893000",
+          "frame.time_delta": "0.000257000",
+          "frame.time_delta_displayed": "1.050000000",
+          "frame.time_relative": "24.658728000",
+          "frame.number": "995",
+          "frame.len": "30",
+          "frame.cap_len": "30",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "7",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000b0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "11"
+          },
+          "btle.length": "11",
+          "btle.l2cap_index": "103",
+          "btle.crc": "0x001e22d3",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "7",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "41",
+          "btatt.value": "72:72",
+          "btatt.request_in_frame": "992"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:30.683893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157870.683893000",
+          "frame.time_delta": "0.000236000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "25.658728000",
+          "frame.number": "1035",
+          "frame.len": "30",
+          "frame.cap_len": "30",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "30",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000b0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "11"
+          },
+          "btle.length": "11",
+          "btle.l2cap_index": "107",
+          "btle.crc": "0x00d30924",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "7",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "50",
+          "btatt.value": "33:74",
+          "btatt.request_in_frame": "1032"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:31.683893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157871.683893000",
+          "frame.time_delta": "0.000245000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "26.658728000",
+          "frame.number": "1075",
+          "frame.len": "33",
+          "frame.cap_len": "33",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "17",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000e0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "14"
+          },
+          "btle.length": "14",
+          "btle.l2cap_index": "111",
+          "btle.crc": "0x00926e46",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "10",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "4",
+          "btatt.value": "66:7b:6a:74:45",
+          "btatt.request_in_frame": "1072"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:32.683893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157872.683893000",
+          "frame.time_delta": "0.000255000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "27.658728000",
+          "frame.number": "1115",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "6",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "115",
+          "btle.crc": "0x00b3b3ad",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "31",
+          "btatt.value": "6a",
+          "btatt.request_in_frame": "1112"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:33.683893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157873.683893000",
+          "frame.time_delta": "0.000234000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "28.658728000",
+          "frame.number": "1155",
+          "frame.len": "30",
+          "frame.cap_len": "30",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "14",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000b0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "11"
+          },
+          "btle.length": "11",
+          "btle.l2cap_index": "119",
+          "btle.crc": "0x0032b658",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "7",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "6",
+          "btatt.value": "6f:31",
+          "btatt.request_in_frame": "1152"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:34.683893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157874.683893000",
+          "frame.time_delta": "0.000243000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "29.658728000",
+          "frame.number": "1195",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "32",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "123",
+          "btle.crc": "0x00503d63",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "6",
+          "btatt.value": "62",
+          "btatt.request_in_frame": "1192"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:35.733893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157875.733893000",
+          "frame.time_delta": "0.000254000",
+          "frame.time_delta_displayed": "1.050000000",
+          "frame.time_relative": "30.708728000",
+          "frame.number": "1237",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "27",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "127",
+          "btle.crc": "0x00c54e6b",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "50",
+          "btatt.value": "33",
+          "btatt.request_in_frame": "1234"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:36.733893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157876.733893000",
+          "frame.time_delta": "0.000233000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "31.708728000",
+          "frame.number": "1277",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "29",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "131",
+          "btle.crc": "0x0038621d",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "57",
+          "btatt.value": "0a",
+          "btatt.request_in_frame": "1274"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:37.733893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157877.733893000",
+          "frame.time_delta": "0.000243000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "32.708728000",
+          "frame.number": "1317",
+          "frame.len": "32",
+          "frame.cap_len": "32",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "16",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000d06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "13"
+          },
+          "btle.length": "13",
+          "btle.l2cap_index": "135",
+          "btle.crc": "0x00df5aaf",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "9",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "35",
+          "btatt.value": "5f:53:45:41",
+          "btatt.request_in_frame": "1314"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:38.733893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157878.733893000",
+          "frame.time_delta": "0.000252000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "33.708728000",
+          "frame.number": "1357",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "20",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "139",
+          "btle.crc": "0x0093a986",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "27",
+          "btatt.value": "79",
+          "btatt.request_in_frame": "1354"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:39.733893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157879.733893000",
+          "frame.time_delta": "0.000231000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "34.708728000",
+          "frame.number": "1397",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "22",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "143",
+          "btle.crc": "0x0055208a",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "25",
+          "btatt.value": "34",
+          "btatt.request_in_frame": "1394"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:40.733893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157880.733893000",
+          "frame.time_delta": "0.000241000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "35.708728000",
+          "frame.number": "1437",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "1",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "147",
+          "btle.crc": "0x00c9ec0d",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "22",
+          "btatt.value": "34",
+          "btatt.request_in_frame": "1434"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:41.783893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157881.783893000",
+          "frame.time_delta": "0.000253000",
+          "frame.time_delta_displayed": "1.050000000",
+          "frame.time_relative": "36.758728000",
+          "frame.number": "1479",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "33",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "151",
+          "btle.crc": "0x00a202fb",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "41",
+          "btatt.value": "41",
+          "btatt.request_in_frame": "1476"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:42.783893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157882.783893000",
+          "frame.time_delta": "0.000231000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "37.758728000",
+          "frame.number": "1519",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "19",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "155",
+          "btle.crc": "0x00089876",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "11",
+          "btatt.value": "74",
+          "btatt.request_in_frame": "1516"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:43.783893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157883.783893000",
+          "frame.time_delta": "0.000241000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "38.758728000",
+          "frame.number": "1559",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "9",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "159",
+          "btle.crc": "0x0003c92a",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "23",
+          "btatt.value": "64",
+          "btatt.request_in_frame": "1556"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:44.783893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157884.783893000",
+          "frame.time_delta": "0.000251000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "39.758728000",
+          "frame.number": "1599",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "8",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "163",
+          "btle.crc": "0x0044a1ff",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "8",
+          "btatt.value": "55",
+          "btatt.request_in_frame": "1596"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:46.783893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157886.783893000",
+          "frame.time_delta": "0.000239000",
+          "frame.time_delta_displayed": "2.000000000",
+          "frame.time_relative": "41.758728000",
+          "frame.number": "1679",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "19",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "169",
+          "btle.crc": "0x0012fd18",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "33",
+          "btatt.value": "73",
+          "btatt.request_in_frame": "1676"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:47.783893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157887.783893000",
+          "frame.time_delta": "0.000249000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "42.758728000",
+          "frame.number": "1719",
+          "frame.len": "32",
+          "frame.cap_len": "32",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "31",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000d0a",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "0",
+            "btle.data_header.sequence_number": "1",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "13"
+          },
+          "btle.length": "13",
+          "btle.l2cap_index": "173",
+          "btle.crc": "0x00178673",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "9",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "36",
+          "btatt.value": "34:73:69:70",
+          "btatt.request_in_frame": "1716"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:48.833893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157888.833893000",
+          "frame.time_delta": "0.000229000",
+          "frame.time_delta_displayed": "1.050000000",
+          "frame.time_relative": "43.808728000",
+          "frame.number": "1761",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "16",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "177",
+          "btle.crc": "0x007f34a6",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "38",
+          "btatt.value": "6b",
+          "btatt.request_in_frame": "1758"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2021-02-13",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {
+          "frame.encap_type": "161",
+          "frame.time": "Feb 13, 2021 00:54:49.833893000 IST",
+          "frame.offset_shift": "0.000000000",
+          "frame.time_epoch": "1613157889.833893000",
+          "frame.time_delta": "0.000239000",
+          "frame.time_delta_displayed": "1.000000000",
+          "frame.time_relative": "44.808728000",
+          "frame.number": "1801",
+          "frame.len": "29",
+          "frame.cap_len": "29",
+          "frame.marked": "1",
+          "frame.ignored": "0",
+          "frame.protocols": "bluetooth:btle_rf:btle:btl2cap:btatt"
+        },
+        "bluetooth": "Bluetooth",
+        "btle_rf": {
+          "btle_rf.channel": "38",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.signed_byte_unused": "0",
+          "btle_rf.unsigned_byte_unused": "0",
+          "btle_rf.word_unused": "0x00000000",
+          "btle_rf.flags": "0x00000000",
+          "btle_rf.flags_tree": {
+            "btle_rf.flags.dewhitened": "0",
+            "btle_rf.flags.signal_dbm_valid": "0",
+            "btle_rf.flags.noise_dbm_valid": "0",
+            "btle_rf.flags.decrypted": "0",
+            "btle_rf.flags.reference_access_address_valid": "0",
+            "btle_rf.flags.access_address_offenses_valid": "0",
+            "btle_rf.flags.channel_aliased": "0",
+            "btle_rf.flags.rfu.1": "0",
+            "btle_rf.flags.crc_checked": "0",
+            "btle_rf.flags.crc_valid": "0",
+            "btle_rf.flags.mic_checked": "0",
+            "btle_rf.flags.mic_valid": "0",
+            "btle_rf.flags.rfu.2": "0"
+          }
+        },
+        "btle": {
+          "btle.access_address": "0xe9e40ad3",
+          "btle.master_bd_addr": "ed:71:8f:c2:e4:6e",
+          "btle.slave_bd_addr": "55:2c:fa:55:2c:fa",
+          "btle.data_header": "0x00000a06",
+          "btle.data_header_tree": {
+            "btle.data_header.llid": "2",
+            "btle.data_header.next_expected_sequence_number": "1",
+            "btle.data_header.sequence_number": "0",
+            "btle.data_header.more_data": "0",
+            "btle.data_header.rfu": "0",
+            "btle.data_header.length": "10"
+          },
+          "btle.length": "10",
+          "btle.l2cap_index": "181",
+          "btle.crc": "0x00f5dffd",
+          "btle.crc_tree": {
+            "_ws.expert": {
+              "btle.crc.indeterminate": "",
+              "_ws.expert.message": "CRC unchecked, not all data available",
+              "_ws.expert.severity": "4194304",
+              "_ws.expert.group": "16777216"
+            }
+          }
+        },
+        "btl2cap": {
+          "btl2cap.length": "6",
+          "btl2cap.cid": "4"
+        },
+        "btatt": {
+          "btatt.opcode": "0x00000017",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x00000017"
+          },
+          "btatt.handle": "0x00000012",
+          "btatt.handle_tree": {
+            "btatt.uuid128": "12:34:56:78:12:34:56:78:12:34:56:78:9a:bc:de:f3"
+          },
+          "btatt.offset": "39",
+          "btatt.value": "5f",
+          "btatt.request_in_frame": "1798"
+        }
+      }
+    }
+  }
+]

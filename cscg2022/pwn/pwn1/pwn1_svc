@@ -1,0 +1,12 @@
+service gearboy
+{
+type         = UNLISTED
+protocol     = tcp
+socket_type  = stream
+port         = 1024
+server       = /usr/bin/env
+server_args  = /home/ctf/pwn1
+user         = ctf
+wait         = no
+env          = HOME=/home/ctf/
+}

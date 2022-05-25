@@ -1,0 +1,14 @@
+version: '3.7'
+services:
+  webserver:
+    container_name: file-upload-webserver
+    build:
+      context: ./webserver
+      dockerfile: Dockerfile
+    ports:
+      - 1024:1024
+  mysql:
+    container_name: file-upload-mysql
+    build:
+      context: ./sql
+      dockerfile: Dockerfile
